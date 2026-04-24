@@ -13,9 +13,10 @@ public class Peixe extends Animal{
         this.caracteristica = caracteristica;
     }
 
-    @Override
-    public void dados() {
+
+    public void dadosPeixe() {
         super.dados();
-        System.out.println(String.format("E teu peixe tem a característica de %s", this.caracteristica));
+        System.out.printf("E teu peixe tem a característica de %s.%n", this.caracteristica);
+        System.out.println("---Fim da exibição de dados---\n");
     }
 }
